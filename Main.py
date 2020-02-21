@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
 
-
 class Esamination:
     def __init__(self, data):
         info = data.iloc[0, 0].split()
